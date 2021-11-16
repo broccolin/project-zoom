@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+
+.classCard__upper {
+  background-image: linear-gradient(to right top, #5261ea, #555ac2, #54539c, #4f4c77, #474554);
+  height: 90px;
+  position: relative;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.classCard {
+  width: 300px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  background-color: #daecec;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.classCard__middle {
+  height: 150px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.classCard__creatorPhoto {
+  position: absolute;
+  right:1px;
+  top: 155px;
+  border-radius: 40px;
+  height: 80px;
+}
+
+.classCard__className {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.classCard__creatorName {
+  position: absolute;
+  bottom: 12px;
+  font-size: 15px;
+}
+
+.classCard__classDesc{
+  position: absolute;
+  top: 100px;
+  color: black;
+}
+
+

@@ -1,0 +1,67 @@
+.class {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  
+}
+
+.calendario{
+    width: 500px;
+    height: 300px;
+    border: 1px #050000  solid;
+    margin-left: 30px;
+    margin-top: 31px;
+    border-radius: 5px;
+}
+
+.class__nameBox {
+  width: 100%;
+  background-image: linear-gradient(to right top, #6bbaa2, #83cab4, #9adbc5, #b1ebd8, #c8fcea);
+  color: black;
+  height: 350px;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.class__announce {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+  border: 1px solid #adadad;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.class__announce > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+}
+
+.class__announce > input {
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 17px;
+  outline: none;
+}
+
+.main__code{
+  font-size: 25px;
+  font-weight: 500;
+}

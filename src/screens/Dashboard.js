@@ -19,14 +19,10 @@ function Dashboard() {
         .onSnapshot((snapshot) => {
           setClasses(snapshot?.docs[0]?.data()?.enrolledClassrooms);
         });
-      // 👇🏻 below code doesn't update realtime, so updated to snapshot listener
-      // const userData = querySnapshot.docs[0].data();
-      // setClasses(userData.enrolledClassrooms);
     } catch (error) {
       console.error(error.message);
     }
   };
-
   useEffect(() => {
     if (loading) return;
     if (!user) history.replace("/");
